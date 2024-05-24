@@ -1,7 +1,4 @@
-
-# Setup Docker Laravel 10 com PHP 8.1
-[Assine a Academy, e Seja VIP!](https://academy.especializati.com.br)
-
+# Conceitos de Laravel 10 com PHP 8.1
 ### Passo a passo
 Clone Repositório
 ```sh
