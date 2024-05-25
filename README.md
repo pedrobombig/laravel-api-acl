@@ -1,8 +1,10 @@
-# Conceitos de Laravel 10 com PHP 8.1
+# Laravel 10 ACL
+
 ### Passo a passo
+
 Clone Repositório
 ```sh
-git clone -b laravel-10-com-php-8.1 https://github.com/especializati/setup-docker-laravel.git app-laravel
+git clone https://github.com/pedrobombig/laravel10-ACL LARAVEL-ACL
 ```
 ```sh
 cd app-laravel
@@ -14,16 +16,15 @@ Crie o Arquivo .env
 cp .env.example .env
 ```
 
-
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME="Especializa Ti"
+APP_NAME="Laravel 10 - ACL"
 APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
-DB_DATABASE=laravel
+DB_DATABASE=LARAVEL_ACL
 DB_USERNAME=root
 DB_PASSWORD=root
 
@@ -42,24 +43,20 @@ Suba os containers do projeto
 docker-compose up -d
 ```
 
-
 Acesse o container app
 ```sh
 docker-compose exec app bash
 ```
-
 
 Instale as dependências do projeto
 ```sh
 composer install
 ```
 
-
 Gere a key do projeto Laravel
 ```sh
 php artisan key:generate
 ```
-
 
 Acesse o projeto
 [http://localhost:8989](http://localhost:8989)
