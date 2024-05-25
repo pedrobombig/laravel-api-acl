@@ -1,15 +1,17 @@
 # Laravel 10 ACL
 
-### Passo a passo
+Criação de um sistema ACL com o poderoso framework PHP, o Laravel.
+Neste projeto irei trabalhar com controle de acessos aos recursos de um Sistema.
+
+### Instalação
 
 Clone Repositório
 ```sh
-git clone https://github.com/pedrobombig/laravel10-ACL LARAVEL-ACL
+git clone https://github.com/pedrobombig/laravel-api-acl laravel-api-acl
 ```
 ```sh
-cd app-laravel
+cd laravel-api-acl
 ```
-
 
 Crie o Arquivo .env
 ```sh
@@ -18,7 +20,7 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME="Laravel 10 - ACL"
+APP_NAME="Laravel API - ACL"
 APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
